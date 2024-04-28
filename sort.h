@@ -35,10 +35,11 @@ typedef struct listint_s
 
 /* Printing helper functions */
 void print_array(const int *arr, size_t size1);
-void print_list(const listint_t *list);
+void print_list(const listint_t *lists);
 
 /* Sorting algoritms */
 void bubble_sort(int *arr, size_t size1);
+void insertion_sort_list(listint_t **lists);
 
 #endif /* SORT_H */
 
