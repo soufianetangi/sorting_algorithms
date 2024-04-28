@@ -1,6 +1,6 @@
 #include "sort.h"
 
-int get_max(int *arr int size1);
+int get_max(int *arr, int size1);
 void radix_counting_sort(int *arr, size_t size1, int sig, int *buff);
 void radix_sort(int *arr, size_t size1);
 
