@@ -40,6 +40,16 @@ void print_list(const listint_t *lists);
 /* Sorting algoritms */
 void bubble_sort(int *arr, size_t size1);
 void insertion_sort_list(listint_t **lists);
+void selection_sort(int *arr, size_t size1);
+void quick_sort(int *arr, size_t size1);
+void shell_sort(int *arr, size_t size1);
+void cocktail_sort_list(listint_t **lists);
+void counting_sort(int *arr, size_t size1);
+void merge_sort(int *arr, size_t size1);
+void heap_sort(int *arr, size_t size1);
+void radix_sort(int *arr, size_t size1);
+void bitonic_sort(int *arr, size_t size1);
+void quick_sort_hoare(int *arr, size_t size1);
 
 #endif /* SORT_H */
 
