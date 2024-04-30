@@ -20,8 +20,8 @@ void swap_ints(int *a, int *b)
 
 /**
  * max_heapify - Turn a binary tree into a complete binary heap.
- * @array: An array of integers representing a binary tree.
- * @size: The size of the array/tree.
+ * @arr: An array of integers representing a binary tree.
+ * @size1: The size of the array/tree.
  * @base: The index of the base row of the tree.
  * @root: The root node of the binary tree.
  */
@@ -49,8 +49,8 @@ void max_heapify(int *arr, size_t size1, size_t base, size_t root)
 /**
  * heap_sort - Sort an array of integers in ascending
  *             order using the heap sort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ * @arr: An array of integers.
+ * @size1: The size of the array.
  *
  * Description: Implements the sift-down heap sort
  * algorithm. Prints the array after each swap.
