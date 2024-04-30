@@ -41,7 +41,7 @@ void print_list(const listint_t *lists);
 void bubble_sort(int *arr, size_t size1);
 void insertion_sort_list(listint_t **lists);
 void selection_sort(int *arr, size_t size1);
-void quick_sort(int *arr, size_t size1);
+void quick_sort(int *arr, size_t size);
 void shell_sort(int *arr, size_t size1);
 void cocktail_sort_list(listint_t **lists);
 void counting_sort(int *arr, size_t size1);
