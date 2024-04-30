@@ -3,22 +3,22 @@
 /**
  * swap_nodes - Swap two nodes in a listint_t doubly-linked list.
  * @h: A pointer to the head of the doubly-linked list.
- * @n1: A pointer to the first node to swap.
- * @n2: The second node to swap.
+ * @nn1: A pointer to the first node to swap.
+ * @nn2: The second node to swap.
  */
-void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
+void swap_nodes(listint_t **h, listint_t **nn1, listint_t *nn2)
 {
-	(*n1)->next = n2->next;
-	if (n2->next != NULL)
-		n2->next->prev = *n1;
-	n2->prev = (*n1)->prev;
-	n2->next = *n1;
-	if ((*n1)->prev != NULL)
-		(*n1)->prev->next = n2;
+	(*nn1)->next = nn2->next;
+	if (nn2->next != NULL)
+		nn2->next->prev = *nn1;
+	nn2->prev = (*nn1)->prev;
+	nn2->next = *nn1;
+	if ((*nn1)->prev != NULL)
+		(*nn1)->prev->next = nn2;
 	else
-		*h = n2;
-	(*n1)->prev = n2;
-	*n1 = n2->prev;
+		*h = nn2;
+	(*nn1)->prev = nn2;
+	*nn1 = nn2->prev;
 }
 
 /**
